@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="first">
+        修改密码:选择”系统设置，项目运行时，默认没有密码。
+    </string>
+    <string name="second"> 支出管理:选择"新增支出“模块可以添加支出信息;选择“我的支出"模块可以查看、修改或删除支出信息。</string>
+    <string name="third">收入管理:选择“新增收入”模块可以添加收入信息;选择“我的收入“模块可以查看、修改或删除收入信息。</string>
+    <string name="fourth">便签管理:选择收支便签模块可以添加便签信息;选择"数据管理"模块中的“便签信息“按钮可以查看、修改或删除便签信息。</string>
+    <string name="fifth">退出系统: 选择“退出"模块可以退出 《个人理财通》项目。</string>
+
+</resources>

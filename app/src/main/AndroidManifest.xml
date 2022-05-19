@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication.Activity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Show_Data_Activity"/>
+        <activity android:name=".Mange_Note_Acivity"/>
+        <activity android:name=".new_Note_Activity"/>
+        <activity android:name=".List_Note_Activity"></activity>
+        <activity android:name=".List_InCome_Activity" />
+        <activity android:name=".Mange_Outcome_Activity" />
+        <activity android:name=".Mange_Income_Acitivity" />
+        <activity android:name=".new_Outcome_Activity" />
+        <activity android:name=".new_InCome_Acvtivity" />
+        <activity android:name=".Help_Activity" />
+        <activity android:name=".System_Setting_Activity" />
+        <activity android:name=".MainScreen" />
+        <activity android:name=".List_Outcome_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <!-- action.MAIN表示作为程序的主入口。 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- android.intent.category.LAUNCHER(决定应用程序是否显示在程序列表里) -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

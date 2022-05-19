@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="新增便签"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/new_note_comment"
+        android:layout_width="578dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/edit_text"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/new_note_save"
+        android:layout_width="123dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="68dp"
+        android:text="保存"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@+id/new_note_comment"
+        tools:layout_editor_absoluteX="125dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/new_note_can"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="取消"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/new_note_save"
+        app:layout_constraintTop_toTopOf="@+id/new_note_save" />
+</androidx.constraintlayout.widget.ConstraintLayout>
