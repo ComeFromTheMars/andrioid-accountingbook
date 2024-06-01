@@ -1,4 +1,3 @@
-# -
-安卓记账本
-基于java语言开发的安卓记账app，能够对于个人的收入、支出进行记录和管理，并且能够记录一些平常的便签。
-能够对于个人的支出、收入进行可视化分析。
+Android ledger
+An Android accounting app developed based on Java language, which can record and manage personal income and expenses, as well as record some ordinary notes.
+Can conduct visual analysis of personal expenses and income.
